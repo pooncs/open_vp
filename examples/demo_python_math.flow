@@ -1,0 +1,48 @@
+{
+    "connections": [
+        {
+            "inPortIndex": 1,
+            "intNodeId": 1,
+            "outNodeId": 0,
+            "outPortIndex": 0
+        },
+        {
+            "inPortIndex": 0,
+            "intNodeId": 2,
+            "outNodeId": 1,
+            "outPortIndex": 0
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "internal-data": {
+                "model-name": "NumberSource"
+            },
+            "position": {
+                "x": 100,
+                "y": 100
+            }
+        },
+        {
+            "id": 1,
+            "internal-data": {
+                "model-name": "PythonScript"
+            },
+            "position": {
+                "x": 400,
+                "y": 100
+            }
+        },
+        {
+            "id": 2,
+            "internal-data": {
+                "model-name": "StringDisplay"
+            },
+            "position": {
+                "x": 700,
+                "y": 100
+            }
+        }
+    ]
+}
