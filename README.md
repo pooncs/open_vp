@@ -1,4 +1,4 @@
-# open_vp
+# Open Visual Programmer
 
 ## Overview
 
