@@ -1,2 +1,2 @@
-cmake -S . -B build -G "Visual Studio 16 2019" -A x64
-cmake --build build --config Release
+cmake -S . -B build_vs2019_x64 -G "Visual Studio 16 2019" -A x64
+cmake --build build_vs2019_x64 --config Release
